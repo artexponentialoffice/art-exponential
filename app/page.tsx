@@ -371,7 +371,7 @@ export default function Home() {
     // Timer สำหรับ Loading Screen
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 500);
     return () => clearTimeout(timer);
   }, []);
 
