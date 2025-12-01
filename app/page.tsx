@@ -38,6 +38,7 @@ import {
   Sun,
   Monitor,
   Hammer,
+  
 } from "lucide-react";
 
 import { FaLine } from "react-icons/fa";
@@ -78,6 +79,7 @@ const services = [
   },
 ];
 
+/* --- UPDATED NEWS DATA (เพิ่ม content) --- */
 const newsUpdates = [
   {
     id: 1,
@@ -88,6 +90,19 @@ const newsUpdates = [
       "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1000",
     excerpt:
       "ทีมวิศวกร A.R.T เข้าตรวจสอบและส่งมอบงานติดตั้งตู้ MDB ขนาด 3000A พร้อมระบบ Solar Rooftop",
+    content: `
+      <p>ทีมวิศวกร A.R.T Exponential ได้ดำเนินการส่งมอบงานติดตั้งระบบไฟฟ้าหลัก (Main Distribution Board - MDB) ขนาด 3000A ให้กับโรงงานอุตสาหกรรมในนิคมนวนครเป็นที่เรียบร้อย</p>
+      <br/>
+      <p>โดยโครงการนี้ครอบคลุมถึง:</p>
+      <ul class="list-disc pl-5 my-2 space-y-1">
+        <li>การติดตั้งตู้ MDB และตู้ย่อย DB จำนวน 20 จุด</li>
+        <li>เดินสายเมนเข้าอาคารด้วยสาย THW ขนาด 500 sq.mm.</li>
+        <li>ติดตั้งระบบ Solar Rooftop ขนาด 500kWp เพื่อประหยัดพลังงาน</li>
+        <li>ทดสอบระบบด้วยเครื่องมือ Thermal Imaging Scan เพื่อหาจุดความร้อนก่อนส่งมอบ</li>
+      </ul>
+      <br/>
+      <p>เราภูมิใจที่เป็นส่วนหนึ่งในความสำเร็จของลูกค้า และมุ่งมั่นที่จะส่งมอบงานคุณภาพมาตรฐานสากลต่อไป</p>
+    `
   },
   {
     id: 2,
@@ -98,6 +113,11 @@ const newsUpdates = [
       "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000",
     excerpt:
       "ยกระดับมาตรฐานการบริการและการจัดการ สู่ความเป็นเลิศในระดับสากล เพื่อความมั่นใจสูงสุดของลูกค้า",
+    content: `
+      <p>บริษัท A.R.T Exponential จำกัด มีความยินดีที่จะประกาศว่า เราได้รับการรับรองมาตรฐานระบบบริหารงานคุณภาพ ISO 9001:2015 อย่างเป็นทางการ</p>
+      <br/>
+      <p>การได้รับการรับรองในครั้งนี้ เป็นเครื่องยืนยันถึงความมุ่งมั่นของเราในการพัฒนาระบบการทำงานให้มีประสิทธิภาพ ตรวจสอบได้ และมุ่งเน้นความพึงพอใจของลูกค้าเป็นสำคัญ ตั้งแต่กระบวนการรับความต้องการ การออกแบบติดตั้ง ไปจนถึงบริการหลังการขาย</p>
+    `
   },
   {
     id: 3,
@@ -108,6 +128,17 @@ const newsUpdates = [
       "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1000",
     excerpt:
       "เสริมสร้างความรู้และทักษะความปลอดภัยในการปฏิบัติงานให้กับพนักงานทุกคน",
+    content: `
+      <p>เพื่อความปลอดภัยสูงสุดในการปฏิบัติงาน A.R.T Exponential ได้จัดโครงการอบรม "Electrical Safety Awareness 2025" ให้กับทีมช่างและวิศวกรทุกคน</p>
+      <br/>
+      <p>หัวข้อการอบรมประกอบด้วย:</p>
+      <ul class="list-disc pl-5 my-2 space-y-1">
+        <li>กฎกระทรวงและมาตรฐานความปลอดภัยใหม่ล่าสุด</li>
+        <li>การปฐมพยาบาลและการทำ CPR ผู้ถูกไฟฟ้าดูด</li>
+        <li>การใช้งานอุปกรณ์ PPE อย่างถูกต้อง</li>
+        <li>Workshop จำลองสถานการณ์ฉุกเฉิน</li>
+      </ul>
+    `
   },
   {
     id: 4,
@@ -118,6 +149,19 @@ const newsUpdates = [
       "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&q=80&w=1000",
     excerpt:
       "นวัตกรรมมิเตอร์ไฟฟ้าอัจฉริยะ ที่ช่วยให้คุณตรวจสอบการใช้พลังงานได้ผ่านมือถือแบบ Real-time",
+    content: `
+      <p>พบกับนวัตกรรมใหม่ล่าสุดจาก A.R.T Exponential กับ "Smart Meter IoT Series 5"</p>
+      <br/>
+      <p>จุดเด่นผลิตภัณฑ์:</p>
+      <ul class="list-disc pl-5 my-2 space-y-1">
+        <li>ดูค่าไฟฟ้า Real-time ผ่านแอพพลิเคชั่นบนมือถือ</li>
+        <li>แจ้งเตือนเมื่อมีไฟตก ไฟเกิน หรือกระแสไฟผิดปกติ</li>
+        <li>รองรับการเชื่อมต่อ WiFi และ 4G/5G</li>
+        <li>เก็บข้อมูลย้อนหลังได้สูงสุด 5 ปี</li>
+      </ul>
+      <br/>
+      <p>พร้อมจำหน่ายและติดตั้งแล้ววันนี้ สอบถามข้อมูลเพิ่มเติมได้ที่ฝ่ายขาย</p>
+    `
   },
 ];
 
@@ -338,13 +382,19 @@ export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [isLoading, setIsLoading] = useState(true); // ✅ ย้ายมานี่แล้ว
+  const [isLoading, setIsLoading] = useState(true);
   const [openImage, setOpenImage] = useState<any>(null);
   const [selectedProduct, setSelectedProduct] = useState<any>(null);
   const [selectedCategory, setSelectedCategory] = useState<any>(null);
+  const [selectedNews, setSelectedNews] = useState<any>(null); // ✅ STATE สำหรับข่าว
   const [activeAboutTab, setActiveAboutTab] = useState<
     "history" | "ceo" | "vision" | "standards"
   >("history");
+
+  // ส่วนเลื่อนอัติโนมัติ
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [isPaused, setIsPaused] = useState(false);
+
   const [error, setError] = useState<string | null>(null);
 
   const electricalProducts = products
@@ -375,7 +425,7 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
-  // 3. ส่วนแสดงผล Loading Screen (Function ภายใน Component)
+  // 3. ส่วนแสดงผล Loading Screen
   const LoadingScreen = () => (
     <div
       className={`fixed inset-0 z-[9999] bg-[#0f172a] flex flex-col items-center justify-center transition-all duration-1000 ease-in-out ${
@@ -411,9 +461,37 @@ export default function Home() {
     </div>
   );
 
+  // ✅ useEffect สำหรับ Auto Scroll
+  useEffect(() => {
+    const scrollContainer = scrollRef.current;
+    if (!scrollContainer) return;
+
+    const scrollSpeed = 1; // ความเร็ว (ยิ่งมากยิ่งเร็ว)
+    let scrollInterval: any;
+
+    const startScrolling = () => {
+      scrollInterval = setInterval(() => {
+        if (!isPaused && scrollContainer) {
+          // ถ้าเลื่อนไปสุดขอบขวาแล้ว ให้วนกลับมาเริ่มใหม่แบบเนียนๆ
+          if (
+            scrollContainer.scrollLeft + scrollContainer.clientWidth >=
+            scrollContainer.scrollWidth - 1
+          ) {
+            scrollContainer.scrollLeft = 0;
+          } else {
+            scrollContainer.scrollLeft += scrollSpeed;
+          }
+        }
+      }, 30); // ระยะเวลา (ยิ่งน้อยยิ่งลื่น)
+    };
+
+    startScrolling();
+
+    return () => clearInterval(scrollInterval);
+  }, [isPaused]);
+
   return (
     <>
-      {/* เรียกใช้ Loading Screen ที่นี่ */}
       <LoadingScreen />
 
       <Head>
@@ -436,22 +514,17 @@ export default function Home() {
       </Head>
 
       <style jsx global>{`
-        /* กำหนดตัวแปร (เผื่อใช้) */
+        /* ... (CSS เดิมทั้งหมด) ... */
         :root {
           --font-prompt: "Prompt", sans-serif;
         }
-
-        /* บังคับใช้ Font Prompt กับทุกสิ่งอย่างในหน้านี้ */
         * {
           font-family: "Prompt", sans-serif !important;
         }
-
-        /* กำหนดพื้นหลังและ Scrollbar (ของเดิม) */
         body {
           background-color: #fdfbf7;
           font-family: "Prompt", sans-serif !important;
         }
-
         .custom-scrollbar::-webkit-scrollbar {
           width: 6px;
         }
@@ -462,7 +535,6 @@ export default function Home() {
           background: #cbd5e1;
           border-radius: 3px;
         }
-
         .news-scrollbar::-webkit-scrollbar {
           height: 6px;
         }
@@ -476,206 +548,80 @@ export default function Home() {
         .news-scrollbar::-webkit-scrollbar-thumb:hover {
           background: #b59024;
         }
-
-        /* Animation ต่างๆ (ของเดิม) */
         @keyframes float {
-          0%,
-          100% {
-            transform: translateY(0px) translateZ(50px);
-          }
-          50% {
-            transform: translateY(-10px) translateZ(50px);
-          }
+          0%, 100% { transform: translateY(0px) translateZ(50px); }
+          50% { transform: translateY(-10px) translateZ(50px); }
         }
-        .animate-float {
-          animation: float 6s ease-in-out infinite;
-        }
-
+        .animate-float { animation: float 6s ease-in-out infinite; }
         @keyframes scene-float {
-          0%,
-          100% {
-            transform: rotateX(20deg) rotateY(-15deg) translateY(0px);
-          }
-          50% {
-            transform: rotateX(20deg) rotateY(-15deg) translateY(-15px);
-          }
+          0%, 100% { transform: rotateX(20deg) rotateY(-15deg) translateY(0px); }
+          50% { transform: rotateX(20deg) rotateY(-15deg) translateY(-15px); }
         }
-        .animate-scene-float {
-          animation: scene-float 8s ease-in-out infinite;
-        }
-
+        .animate-scene-float { animation: scene-float 8s ease-in-out infinite; }
         @keyframes bounce-slow {
-          0%,
-          100% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-5px);
-          }
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-5px); }
         }
-        .animate-bounce-slow {
-          animation: bounce-slow 3s infinite ease-in-out;
-        }
-
+        .animate-bounce-slow { animation: bounce-slow 3s infinite ease-in-out; }
         @keyframes pulse-glow {
-          0%,
-          100% {
-            opacity: 0.3;
-            transform: scale(1);
-          }
-          50% {
-            opacity: 0.5;
-            transform: scale(1.1);
-          }
+          0%, 100% { opacity: 0.3; transform: scale(1); }
+          50% { opacity: 0.5; transform: scale(1.1); }
         }
-        .animate-pulse-glow {
-          animation: pulse-glow 4s infinite ease-in-out;
-        }
-
+        .animate-pulse-glow { animation: pulse-glow 4s infinite ease-in-out; }
         @keyframes flow-line {
-          from {
-            stroke-dashoffset: 20;
-          }
-          to {
-            stroke-dashoffset: 0;
-          }
+          from { stroke-dashoffset: 20; }
+          to { stroke-dashoffset: 0; }
         }
-        .animate-flow-line {
-          animation: flow-line 1s linear infinite;
-        }
-
+        .animate-flow-line { animation: flow-line 1s linear infinite; }
         @keyframes scroll-left {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
         }
-        .animate-scroll-left {
-          animation: scroll-left 80s linear infinite;
-        }
-
-        /* 3D Utility Classes */
-        .perspective-1000 {
-          perspective: 1000px;
-        }
-        .transform-style-3d {
-          transform-style: preserve-3d;
-        }
-        .translate-z-10 {
-          transform: translateZ(10px);
-        }
-
+        .animate-scroll-left { animation: scroll-left 80s linear infinite; }
+        .perspective-1000 { perspective: 1000px; }
+        .transform-style-3d { transform-style: preserve-3d; }
+        .translate-z-10 { transform: translateZ(10px); }
         .bg-grid-tech {
-          background-image: linear-gradient(
-              to right,
-              rgba(15, 23, 42, 0.03) 1px,
-              transparent 1px
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(15, 23, 42, 0.03) 1px,
-              transparent 1px
-            );
+          background-image: linear-gradient(to right, rgba(15, 23, 42, 0.03) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(15, 23, 42, 0.03) 1px, transparent 1px);
           background-size: 40px 40px;
         }
-
-        .text-gold {
-          color: #d4af37;
-        }
-        .bg-gold {
-          background-color: #d4af37;
-        }
-        .border-gold {
-          border-color: #d4af37;
-        }
-
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
         .text-gold-gradient {
           background: linear-gradient(to right, #d4af37, #f2d06b, #d4af37);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
         }
-
         @keyframes toolbox-bob {
-          0% {
-            transform: translate3d(0, 0, 95px) rotateX(4deg) rotateY(-10deg);
-          }
-          50% {
-            transform: translate3d(0, -6px, 105px) rotateX(8deg) rotateY(-18deg);
-          }
-          100% {
-            transform: translate3d(0, 0, 95px) rotateX(4deg) rotateY(-10deg);
-          }
+          0% { transform: translate3d(0, 0, 95px) rotateX(4deg) rotateY(-10deg); }
+          50% { transform: translate3d(0, -6px, 105px) rotateX(8deg) rotateY(-18deg); }
+          100% { transform: translate3d(0, 0, 95px) rotateX(4deg) rotateY(-10deg); }
         }
-
-        .animate-toolbox-bob {
-          transform-origin: center bottom;
-          animation: toolbox-bob 6s ease-in-out infinite;
-        }
-
-        /* เครื่องมือเด้งจากกล่อง – ใช้ดีเลย์ต่างกันให้ภาพดูมีชีวิต */
+        .animate-toolbox-bob { transform-origin: center bottom; animation: toolbox-bob 6s ease-in-out infinite; }
         @keyframes tool-float-1 {
-          0% {
-            opacity: 0;
-            transform: translate3d(0, 8px, 0) rotateZ(-20deg);
-          }
-          20% {
-            opacity: 1;
-          }
-          50% {
-            transform: translate3d(0, -8px, 10px) rotateZ(-10deg);
-          }
-          100% {
-            opacity: 1;
-            transform: translate3d(0, 6px, 0) rotateZ(-18deg);
-          }
+          0% { opacity: 0; transform: translate3d(0, 8px, 0) rotateZ(-20deg); }
+          20% { opacity: 1; }
+          50% { transform: translate3d(0, -8px, 10px) rotateZ(-10deg); }
+          100% { opacity: 1; transform: translate3d(0, 6px, 0) rotateZ(-18deg); }
         }
-
         @keyframes tool-float-2 {
-          0% {
-            opacity: 0;
-            transform: translate3d(0, 10px, 0) rotateZ(18deg);
-          }
-          25% {
-            opacity: 1;
-          }
-          55% {
-            transform: translate3d(0, -10px, 12px) rotateZ(8deg);
-          }
-          100% {
-            opacity: 1;
-            transform: translate3d(0, 4px, 0) rotateZ(15deg);
-          }
+          0% { opacity: 0; transform: translate3d(0, 10px, 0) rotateZ(18deg); }
+          25% { opacity: 1; }
+          55% { transform: translate3d(0, -10px, 12px) rotateZ(8deg); }
+          100% { opacity: 1; transform: translate3d(0, 4px, 0) rotateZ(15deg); }
         }
-
         @keyframes tool-float-3 {
-          0% {
-            opacity: 0;
-            transform: translate3d(0, 4px, 0) scale(0.9);
-          }
-          30% {
-            opacity: 1;
-          }
-          60% {
-            transform: translate3d(0, -6px, 8px) scale(1.05);
-          }
-          100% {
-            opacity: 1;
-            transform: translate3d(0, 2px, 0) scale(1);
-          }
+          0% { opacity: 0; transform: translate3d(0, 4px, 0) scale(0.9); }
+          30% { opacity: 1; }
+          60% { transform: translate3d(0, -6px, 8px) scale(1.05); }
+          100% { opacity: 1; transform: translate3d(0, 2px, 0) scale(1); }
         }
-
-        .animate-tool-float-1 {
-          animation: tool-float-1 4.5s ease-in-out infinite;
-        }
-        .animate-tool-float-2 {
-          animation: tool-float-2 4.8s ease-in-out infinite;
-        }
-        .animate-tool-float-3 {
-          animation: tool-float-3 5.2s ease-in-out infinite;
-        }
+        .animate-tool-float-1 { animation: tool-float-1 4.5s ease-in-out infinite; }
+        .animate-tool-float-2 { animation: tool-float-2 4.8s ease-in-out infinite; }
+        .animate-tool-float-3 { animation: tool-float-3 5.2s ease-in-out infinite; }
       `}</style>
 
       <div className="min-h-screen overflow-x-hidden selection:bg-[#F2D06B] selection:text-slate-900">
@@ -756,7 +702,6 @@ export default function Home() {
               isMenuOpen ? "max-h-[85vh] opacity-100" : "max-h-0 opacity-0"
             }`}
           >
-            {/* เพิ่ม overflow-y-auto เพื่อให้เลื่อนได้ */}
             <div className="px-4 py-6 space-y-2 overflow-y-auto max-h-[80vh]">
               {[
                 "หน้าแรก",
@@ -785,6 +730,7 @@ export default function Home() {
           id="หน้าแรก"
           className="relative min-h-[95vh] flex items-center pt-20 pb-25 overflow-hidden bg-gradient-to-br from-white via-[#D4AF37]/5 to-slate-200/50"
         >
+          {/* ... (Hero Content เดิม) ... */}
           <div className="absolute inset-0 bg-grid-tech opacity-40"></div>
           <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#D4AF37]/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3"></div>
           <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-slate-300/20 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/4"></div>
@@ -858,15 +804,11 @@ export default function Home() {
               </div>
 
               <div className="relative h-[500px] flex items-center justify-center animate-in zoom-in-95 duration-1000 delay-200">
-                {/* เปลี่ยนมาใช้ 3D Animation ใหม่ */}
                 <ElectricalSystem3D />
               </div>
             </div>
           </div>
         </section>
-
-        {/* ... (เนื้อหาในส่วนอื่นๆ เกี่ยวกับเรา, บริการ, สินค้า ยังคงเหมือนเดิมตามโค้ดต้นฉบับที่คุณให้มา) ... */}
-        {/* เพื่อความกระชับ ผมจะละไว้ในฐานที่เข้าใจว่าต้องนำโค้ดส่วนที่เหลือมาต่อท้ายตรงนี้ */}
 
         {/* ABOUT US */}
         <section
@@ -902,7 +844,6 @@ export default function Home() {
                 </button>
               ))}
             </div>
-            {/* ... (About Content Logic - เหมือนเดิม) ... */}
             <div className="bg-white border border-slate-100 shadow-xl shadow-slate-200/50 rounded-[2.5rem] p-8 lg:p-12 min-h-[450px] flex items-center justify-center relative overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-[#D4AF37]/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
               {activeAboutTab === "history" && (
@@ -968,7 +909,6 @@ export default function Home() {
                   </div>
                 </div>
               )}
-              {/* ... (CEO, Vision, Standards Tabs - Copy from original) ... */}
               {activeAboutTab === "ceo" && (
                 <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500 relative z-10">
                   <div className="flex flex-col md:flex-row items-center gap-10 justify-center">
@@ -1117,6 +1057,7 @@ export default function Home() {
           id="บริการ"
           className="py-24 bg-slate-50 text-slate-800 relative overflow-hidden"
         >
+          {/* ... (Service Content เดิม) ... */}
           <div className="absolute top-0 left-0 w-full h-full bg-grid-tech opacity-10"></div>
           <div className="max-w-7xl mx-auto px-4 relative z-10">
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
@@ -1146,7 +1087,6 @@ export default function Home() {
                     key={idx}
                     className="group bg-white border border-slate-100 p-8 rounded-2xl hover:shadow-xl hover:shadow-slate-200 transition-all duration-300 hover:-translate-y-2"
                   >
-                    {/* ดึง iconClass มาใส่ตรงนี้เลย */}
                     <div
                       className={`w-14 h-14 rounded-xl flex items-center justify-center mb-6 transition-colors duration-300 group-hover:text-white ${service.iconClass}`}
                     >
@@ -1171,6 +1111,7 @@ export default function Home() {
           id="สินค้า"
           className="py-24 bg-white relative overflow-hidden"
         >
+          {/* ... (Product Content เดิม) ... */}
           <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#D4AF37]/10 rounded-full blur-[100px] opacity-60 pointer-events-none translate-x-1/3 -translate-y-1/3"></div>
           <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-slate-200/50 rounded-full blur-[100px] opacity-60 pointer-events-none -translate-x-1/3 translate-y-1/3"></div>
           <div className="max-w-7xl mx-auto px-4 relative z-10">
@@ -1187,106 +1128,132 @@ export default function Home() {
             </div>
 
             {/* 1. Category Cards */}
-<div className="grid md:grid-cols-2 gap-6 lg:gap-8 mb-20">
-  {/* Card 1: อุปกรณ์ไฟฟ้า */}
-  <div 
-    className="relative group overflow-hidden rounded-[2rem] bg-white shadow-xl shadow-slate-100 border border-slate-100 p-6 md:p-8 lg:p-12 flex flex-col justify-between cursor-pointer hover:shadow-[#D4AF37]/20 hover:border-[#D4AF37]/50 transition-all duration-500 min-h-[400px] lg:min-h-[600px]"
-    onClick={() => setSelectedCategory({ title: "อุปกรณ์ไฟฟ้าและงานติดตั้ง", key: "ไฟฟ้า" })}
-  >
-    <div className="relative z-10">
-      <div className="flex flex-wrap items-center gap-3 mb-6">
-        <div className="p-3 bg-slate-100 rounded-xl text-slate-600">
-          <Package size={28} className="md:w-8 md:h-8" />
-        </div>
-        <span className="px-3 py-1 bg-slate-100 text-slate-700 text-[10px] md:text-xs font-bold rounded-full tracking-wider">
-          PRODUCT CATALOG
-        </span>
-      </div>
-      <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-4 group-hover:text-[#D4AF37] transition-colors">
-        อุปกรณ์ไฟฟ้าโรงงาน
-      </h3>
-      <p className="text-slate-600 text-sm md:text-base lg:text-lg mb-6 max-w-md">
-        ศูนย์รวมสายไฟ ท่อร้อยสาย ตู้คอนโทรล และอุปกรณ์ติดตั้งครบวงจร มาตรฐาน มอก.
-      </p>
-      <ul className="space-y-3 mb-8 hidden sm:block">
-        {["สายไฟ THW / NYY / VCT", "ตู้ Consumer Unit / Breaker", "โคมไฟ LED Industrial Grade"].map((item, i) => (
-          <li key={i} className="flex items-center gap-3 text-slate-600 font-medium text-sm md:text-base">
-            <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 flex-shrink-0">
-              <CheckCircle2 size={14} />
+            <div className="grid md:grid-cols-2 gap-6 lg:gap-8 mb-20">
+              {/* Card 1: อุปกรณ์ไฟฟ้า */}
+              <div
+                className="relative group overflow-hidden rounded-[2rem] bg-white shadow-xl shadow-slate-100 border border-slate-100 p-6 md:p-8 lg:p-12 flex flex-col justify-between cursor-pointer hover:shadow-[#D4AF37]/20 hover:border-[#D4AF37]/50 transition-all duration-500 min-h-[400px] lg:min-h-[600px]"
+                onClick={() =>
+                  setSelectedCategory({
+                    title: "อุปกรณ์ไฟฟ้าและงานติดตั้ง",
+                    key: "ไฟฟ้า",
+                  })
+                }
+              >
+                <div className="relative z-10">
+                  <div className="flex flex-wrap items-center gap-3 mb-6">
+                    <div className="p-3 bg-slate-100 rounded-xl text-slate-600">
+                      <Package size={28} className="md:w-8 md:h-8" />
+                    </div>
+                    <span className="px-3 py-1 bg-slate-100 text-slate-700 text-[10px] md:text-xs font-bold rounded-full tracking-wider">
+                      PRODUCT CATALOG
+                    </span>
+                  </div>
+                  <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-4 group-hover:text-[#D4AF37] transition-colors">
+                    อุปกรณ์ไฟฟ้าโรงงาน
+                  </h3>
+                  <p className="text-slate-600 text-sm md:text-base lg:text-lg mb-6 max-w-md">
+                    ศูนย์รวมสายไฟ ท่อร้อยสาย ตู้คอนโทรล และอุปกรณ์ติดตั้งครบวงจร
+                    มาตรฐาน มอก.
+                  </p>
+                  <ul className="space-y-3 mb-8 hidden sm:block">
+                    {[
+                      "สายไฟ THW / NYY / VCT",
+                      "ตู้ Consumer Unit / Breaker",
+                      "โคมไฟ LED Industrial Grade",
+                    ].map((item, i) => (
+                      <li
+                        key={i}
+                        className="flex items-center gap-3 text-slate-600 font-medium text-sm md:text-base"
+                      >
+                        <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 flex-shrink-0">
+                          <CheckCircle2 size={14} />
+                        </div>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="relative z-10 flex items-center gap-2 md:gap-3 text-slate-600 font-bold text-sm md:text-base group-hover:translate-x-2 transition-transform mt-auto">
+                  ดูรายการสินค้าทั้งหมด <ArrowRight size={18} />
+                </div>
+
+                {/* Image Background */}
+                <div className="absolute top-1/2 -translate-y-1/2 -right-16 md:-right-24 w-[60%] h-[80%] transition-transform duration-700 group-hover:scale-105 group-hover:-rotate-2 opacity-90">
+                  <img
+                    src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&q=80&w=1000"
+                    alt="Electrical Products"
+                    className="w-full h-full object-cover rounded-l-3xl shadow-2xl"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent"></div>
+                </div>
+              </div>
+
+              {/* Card 2: งานติดตั้ง */}
+              <div
+                className="relative group overflow-hidden rounded-[2rem] bg-[#0f172a] shadow-xl shadow-slate-300/50 border border-slate-800 p-6 md:p-8 lg:p-12 flex flex-col justify-between cursor-pointer hover:shadow-slate-400/50 transition-all duration-500 min-h-[400px] lg:min-h-[600px]"
+                onClick={() =>
+                  setSelectedCategory({
+                    title: "งานติดตั้งและซ่อมบำรุง",
+                    key: "ระบบไฟฟ้าและงานติดตั้ง",
+                  })
+                }
+              >
+                <div className="absolute inset-0 bg-[url('/images/circuit-pattern.png')] opacity-[0.05]"></div>
+                <div className="absolute top-0 right-0 w-64 h-64 bg-[#D4AF37] rounded-full blur-[100px] opacity-20 group-hover:opacity-30 transition-opacity"></div>
+
+                <div className="relative z-10">
+                  <div className="flex flex-wrap items-center gap-3 mb-6">
+                    <div className="p-3 bg-[#D4AF37]/10 rounded-xl text-[#D4AF37]">
+                      <HardHat size={28} className="md:w-8 md:h-8" />
+                    </div>
+                    <span className="px-3 py-1 bg-[#D4AF37]/10 text-[#D4AF37] text-[10px] md:text-xs font-bold rounded-full tracking-wider border border-[#D4AF37]/20">
+                      ENGINEERING SERVICE
+                    </span>
+                  </div>
+                  <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4 group-hover:text-[#D4AF37] transition-colors">
+                    งานติดตั้งและเดินระบบ
+                  </h3>
+                  <p className="text-slate-400 text-sm md:text-base lg:text-lg mb-6 max-w-md">
+                    บริการรับเหมาติดตั้งไฟฟ้าโรงงาน อาคารสูง และตรวจสอบระบบประจำปี
+                    โดยทีมวิศวกร
+                  </p>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4 mb-8">
+                    <div className="bg-slate-800/50 border border-slate-700 p-3 md:p-4 rounded-xl">
+                      <Settings className="text-[#D4AF37] mb-2" size={20} />
+                      <div className="text-white font-bold text-sm">
+                        ติดตั้ง
+                      </div>
+                      <div className="text-slate-500 text-[10px] md:text-xs">
+                        Main Distribution Board
+                      </div>
+                    </div>
+                    <div className="bg-slate-800/50 border border-slate-700 p-3 md:p-4 rounded-xl">
+                      <Activity className="text-emerald-400 mb-2" size={20} />
+                      <div className="text-white font-bold text-sm">
+                        บำรุงรักษา
+                      </div>
+                      <div className="text-slate-500 text-[10px] md:text-xs">
+                        Preventive Maintenance
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="relative z-10 flex items-center gap-2 md:gap-3 text-[#D4AF37] font-bold text-sm md:text-base group-hover:translate-x-2 transition-transform mt-auto">
+                  ปรึกษางานติดตั้ง <ArrowRight size={18} />
+                </div>
+
+                <div className="absolute bottom-0 right-0 opacity-5 group-hover:opacity-10 transition-opacity transform translate-x-10 translate-y-10 text-white pointer-events-none">
+                  <Wrench size={200} className="md:w-[240px] md:h-[240px]" />
+                </div>
+              </div>
             </div>
-            {item}
-          </li>
-        ))}
-      </ul>
-    </div>
-    
-    <div className="relative z-10 flex items-center gap-2 md:gap-3 text-slate-600 font-bold text-sm md:text-base group-hover:translate-x-2 transition-transform mt-auto">
-      ดูรายการสินค้าทั้งหมด <ArrowRight size={18} />
-    </div>
-
-    {/* Image Background */}
-    <div className="absolute top-1/2 -translate-y-1/2 -right-16 md:-right-24 w-[60%] h-[80%] transition-transform duration-700 group-hover:scale-105 group-hover:-rotate-2 opacity-90">
-      <img
-        src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&q=80&w=1000"
-        alt="Electrical Products"
-        className="w-full h-full object-cover rounded-l-3xl shadow-2xl"
-      />
-      <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent"></div>
-    </div>
-  </div>
-
-  {/* Card 2: งานติดตั้ง */}
-  <div 
-    className="relative group overflow-hidden rounded-[2rem] bg-[#0f172a] shadow-xl shadow-slate-300/50 border border-slate-800 p-6 md:p-8 lg:p-12 flex flex-col justify-between cursor-pointer hover:shadow-slate-400/50 transition-all duration-500 min-h-[400px] lg:min-h-[600px]"
-    onClick={() => setSelectedCategory({ title: "งานติดตั้งและซ่อมบำรุง", key: "ระบบไฟฟ้าและงานติดตั้ง" })}
-  >
-    <div className="absolute inset-0 bg-[url('/images/circuit-pattern.png')] opacity-[0.05]"></div>
-    <div className="absolute top-0 right-0 w-64 h-64 bg-[#D4AF37] rounded-full blur-[100px] opacity-20 group-hover:opacity-30 transition-opacity"></div>
-    
-    <div className="relative z-10">
-      <div className="flex flex-wrap items-center gap-3 mb-6">
-        <div className="p-3 bg-[#D4AF37]/10 rounded-xl text-[#D4AF37]">
-          <HardHat size={28} className="md:w-8 md:h-8" />
-        </div>
-        <span className="px-3 py-1 bg-[#D4AF37]/10 text-[#D4AF37] text-[10px] md:text-xs font-bold rounded-full tracking-wider border border-[#D4AF37]/20">
-          ENGINEERING SERVICE
-        </span>
-      </div>
-      <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4 group-hover:text-[#D4AF37] transition-colors">
-        งานติดตั้งและเดินระบบ
-      </h3>
-      <p className="text-slate-400 text-sm md:text-base lg:text-lg mb-6 max-w-md">
-        บริการรับเหมาติดตั้งไฟฟ้าโรงงาน อาคารสูง และตรวจสอบระบบประจำปี โดยทีมวิศวกร
-      </p>
-      
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4 mb-8">
-        <div className="bg-slate-800/50 border border-slate-700 p-3 md:p-4 rounded-xl">
-          <Settings className="text-[#D4AF37] mb-2" size={20} />
-          <div className="text-white font-bold text-sm">ติดตั้ง</div>
-          <div className="text-slate-500 text-[10px] md:text-xs">Main Distribution Board</div>
-        </div>
-        <div className="bg-slate-800/50 border border-slate-700 p-3 md:p-4 rounded-xl">
-          <Activity className="text-emerald-400 mb-2" size={20} />
-          <div className="text-white font-bold text-sm">บำรุงรักษา</div>
-          <div className="text-slate-500 text-[10px] md:text-xs">Preventive Maintenance</div>
-        </div>
-      </div>
-    </div>
-
-    <div className="relative z-10 flex items-center gap-2 md:gap-3 text-[#D4AF37] font-bold text-sm md:text-base group-hover:translate-x-2 transition-transform mt-auto">
-      ปรึกษางานติดตั้ง <ArrowRight size={18} />
-    </div>
-    
-    <div className="absolute bottom-0 right-0 opacity-5 group-hover:opacity-10 transition-opacity transform translate-x-10 translate-y-10 text-white pointer-events-none">
-      <Wrench size={200} className="md:w-[240px] md:h-[240px]" />
-    </div>
-  </div>
-</div>
-           
           </div>
         </section>
 
-        {/* News Section */}
+        {/* News Section (Updated) */}
         <section
           id="ข่าวสาร"
           className="py-24 bg-slate-50 relative overflow-hidden"
@@ -1317,6 +1284,7 @@ export default function Home() {
                 {newsUpdates.map((item) => (
                   <div
                     key={item.id}
+                    onClick={() => setSelectedNews(item)} // ✅ เพิ่ม onClick เพื่อเปิดข่าว
                     className="min-w-[85vw] md:min-w-[400px] snap-center group/card cursor-pointer"
                   >
                     <div className="relative h-[450px] rounded-[2rem] overflow-hidden shadow-lg transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
@@ -1360,6 +1328,8 @@ export default function Home() {
         </section>
 
         {/* Clients */}
+        {/* Clients Section (Updated: Manual Scroll + Full Color) */}
+        {/* Clients Section (Updated: Fix Auto Scroll) */}
         <section
           id="ลูกค้า"
           className="py-16 bg-slate-50 border-t border-slate-100"
@@ -1369,17 +1339,29 @@ export default function Home() {
               Trusted by Trusted Companies
             </span>
           </div>
-          <div className="relative w-full overflow-hidden group">
-            <div className="flex gap-20 w-max animate-scroll-left group-hover:[animation-play-state:paused]">
+          
+          <div className="relative w-full max-w-7xl mx-auto px-4 group">
+            {/* Scrollable Container */}
+            <div 
+              ref={scrollRef} // ✅ ใส่ ref
+              // ✅ เพิ่ม Event ให้หยุดเมื่อเอาเมาส์ชี้ หรือ นิ้วแตะ
+              onMouseEnter={() => setIsPaused(true)}
+              onMouseLeave={() => setIsPaused(false)}
+              onTouchStart={() => setIsPaused(true)}
+              onTouchEnd={() => setIsPaused(false)}
+              // ❌ ลบ scroll-smooth, snap-x, snap-mandatory ออก เพื่อให้ JS ทำงานได้ไหลลื่น
+              className="flex overflow-x-auto gap-6 pb-8 news-scrollbar" 
+            >
+              {/* วนลูป 3 รอบเพื่อให้ลิสต์ยาวพอที่จะเลื่อนวนได้สวยๆ */}
               {[...clients, ...clients, ...clients].map((client, idx) => (
                 <div
                   key={idx}
-                  className="w-48 h-24 flex items-center justify-center transition-all duration-300 hover:scale-110 cursor-pointer px-4"
+                  className="flex-shrink-0 w-[40vw] md:w-56 h-32 bg-white rounded-2xl border border-slate-100 shadow-sm flex items-center justify-center p-6 hover:shadow-md hover:border-[#D4AF37]/30 transition-all cursor-pointer"
                 >
                   <img
                     src={client.logo}
                     alt={client.name}
-                    className="max-w-full max-h-full object-contain drop-shadow-sm hover:drop-shadow-md transition-all"
+                    className="max-w-full max-h-full object-contain transition-transform duration-300 hover:scale-110"
                   />
                 </div>
               ))}
@@ -1387,8 +1369,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
-        {/* Footer */}
+        {/* Footer (Updated Links) */}
         <footer
           id="ติดต่อเรา"
           className="bg-[#0f172a] border-t-4 border-[#D4AF37] text-white py-20 px-4 relative overflow-hidden"
@@ -1399,12 +1380,12 @@ export default function Home() {
               {/* Column 1: Logo & Description */}
               <div className="col-span-2">
                 <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-14 h-14 flex items-center justify-center bg-white rounded-xl p-2">
+                  <div className="w-24 h-24 flex items-center justify-center bg-white rounded-xl p-2">
                     <Image
                       src="/images/logo.png"
                       alt="A.R.T EXPONENTIAL"
-                      width={56}
-                      height={56}
+                      width={80}
+                      height={80}
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -1432,7 +1413,7 @@ export default function Home() {
                   >
                     <Facebook size={24} />
                   </a>
-                  {/* Line Icon (ใช้ FaLine) */}
+                  {/* Line Icon */}
                   <a
                     href="https://line.me/R/ti/p/@024lfgkw"
                     target="_blank"
@@ -1512,7 +1493,7 @@ export default function Home() {
                     </div>
                   </li>
 
-                  {/* Line Official (เพิ่มใหม่) */}
+                  {/* Line Official */}
                   <li className="flex items-start space-x-3 group">
                     <div className="mt-1 flex-shrink-0 text-[#06C755] group-hover:text-white transition-colors">
                       <FaLine size={20} />
@@ -1532,7 +1513,7 @@ export default function Home() {
                     </div>
                   </li>
 
-                  {/* Facebook (เพิ่มใหม่) */}
+                  {/* Facebook */}
                   <li className="flex items-start space-x-3 group">
                     <Facebook
                       size={20}
@@ -1568,27 +1549,30 @@ export default function Home() {
                     </div>
                   </li>
 
-                  {/* Address */}
+                  {/* Address & Map */}
                   <li className="flex items-start space-x-3 group">
                     <MapPin
                       size={20}
                       className="mt-1 flex-shrink-0 text-red-400 group-hover:text-white transition-colors"
                     />
+                    {/* ✅ แก้ไข Link แผนที่ให้ถูกต้อง */}
                     <a
-                         href="https://maps.app.goo.gl/X83bYMXu977YD82j6"
-                        className="text-slate-400 hover:text-rose-400 transition-colors break-all text-sm"
-                      >
-                    <div>
-                      <div className="font-semibold text-white">ที่อยู่</div>
-                      <span className="text-slate-400 text-sm leading-relaxed block mt-1">
-                        เลขที่ 311/1 ม.4 ตำบลคำน้ำเเซบ อำเภอวารินชำราบ
-                        อุบลราชธานี 34190
-                        <br />
-                        <span className="text-[#D4AF37]/80 mt-2 block">
-                          ทำการ : จันทร์-ศุกร์ | 08:00 - 17:00 น.
+                      href="https://www.google.com/maps/search/?api=1&query=311/1+ม.4+ต.คำน้ำเเซบ+อ.วารินชำราบ+จ.อุบลราชธานี+34190"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-slate-400 hover:text-rose-400 transition-colors break-all text-sm block"
+                    >
+                      <div>
+                        <div className="font-semibold text-white">ที่อยู่</div>
+                        <span className="text-slate-400 text-sm leading-relaxed block mt-1">
+                          เลขที่ 311/1 ม.4 ตำบลคำน้ำเเซบ อำเภอวารินชำราบ
+                          อุบลราชธานี 34190
+                          <br />
+                          <span className="text-[#D4AF37]/80 mt-2 block">
+                            ทำการ : จันทร์-ศุกร์ | 08:00 - 17:00 น.
+                          </span>
                         </span>
-                      </span>
-                    </div>
+                      </div>
                     </a>
                   </li>
                 </ul>
@@ -1610,7 +1594,6 @@ export default function Home() {
           </button>
         </div>
 
-        {/* MODALS */}
         {/* MODALS */}
         {/* MODALS - CONTACT US (Full Screen Overlay) */}
         {isContactOpen && (
@@ -1720,7 +1703,7 @@ export default function Home() {
 
                 {/* 5. Map */}
                 <a
-                  href="https://maps.app.goo.gl/X83bYMXu977YD82j6"
+                  href="https://www.google.com/maps/search/?api=1&query=311/1+ม.4+ต.คำน้ำเเซบ+อ.วารินชำราบ+จ.อุบลราชธานี+34190"
                   target="_blank"
                   className="block p-1 rounded-2xl group overflow-hidden relative"
                 >
@@ -1763,7 +1746,6 @@ export default function Home() {
                 <button
                   onClick={() => setSelectedCategory(null)}
                   className="w-10 h-10 flex items-center justify-center bg-white/80 hover:bg-white text-slate-500 hover:text-red-500 rounded-full shadow-lg backdrop-blur-md transition-all duration-200 transform hover:scale-110 border border-slate-100"
-
                 >
                   <X size={20} />
                 </button>
@@ -1814,8 +1796,8 @@ export default function Home() {
             aria-modal="true"
           >
             {/* Backdrop */}
-            <div 
-              className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm transition-opacity" 
+            <div
+              className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm transition-opacity"
               onClick={() => setSelectedProduct(null)}
             ></div>
 
@@ -1855,7 +1837,7 @@ export default function Home() {
                       {selectedProduct.name}
                     </h3>
                     <div className="w-12 h-1 bg-[#D4AF37] rounded-full mb-6"></div>
-                    
+
                     {/* Scrollable text area if content is too long */}
                     <div className="prose prose-slate max-h-[30vh] md:max-h-none overflow-y-auto custom-scrollbar pr-2">
                       <p className="text-slate-600 leading-relaxed text-base md:text-lg">
@@ -1876,13 +1858,91 @@ export default function Home() {
                     }}
                     className="mt-8 w-full py-3 md:py-4 bg-[#0f172a] hover:bg-[#D4AF37] text-white rounded-xl font-bold transition-colors shadow-lg text-base md:text-lg flex items-center justify-center gap-2 group"
                   >
-                    <MessageCircle size={20} className="group-hover:animate-bounce" /> ติดต่อสอบถาม
+                    <MessageCircle
+                      size={20}
+                      className="group-hover:animate-bounce"
+                    />{" "}
+                    ติดต่อสอบถาม
                   </button>
                 </div>
               </div>
             </div>
           </div>
         )}
+
+        {/* --- NEWS MODAL (หน้าต่างอ่านข่าว) --- */}
+        {selectedNews && (
+          <div
+            className="fixed inset-0 z-[80] overflow-y-auto"
+            role="dialog"
+            aria-modal="true"
+          >
+            {/* พื้นหลังสีดำจางๆ กดแล้วปิดได้ */}
+            <div
+              className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm transition-opacity"
+              onClick={() => setSelectedNews(null)}
+            ></div>
+
+            <div className="flex min-h-full items-center justify-center p-4 text-center sm:p-0">
+              <div
+                className="relative transform overflow-hidden rounded-[2rem] bg-white text-left shadow-2xl transition-all w-full max-w-3xl flex flex-col animate-in slide-in-from-bottom-8 duration-500"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {/* ปุ่มปิด */}
+                <button
+                  onClick={() => setSelectedNews(null)}
+                  className="absolute top-4 right-4 z-20 p-2 bg-black/20 hover:bg-black/40 text-white rounded-full backdrop-blur-md transition-colors"
+                >
+                  <X size={24} />
+                </button>
+
+                {/* รูปภาพหัวข้อข่าว */}
+                <div className="relative h-64 md:h-80 w-full">
+                  <Image
+                    src={selectedNews.image}
+                    alt={selectedNews.title}
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+
+                  {/* Category & Date บนรูป */}
+                  <div className="absolute bottom-6 left-6 right-6 text-white">
+                    <span className="px-3 py-1 bg-[#D4AF37] text-white text-xs font-bold rounded-full mb-3 inline-block shadow-lg">
+                      {selectedNews.category}
+                    </span>
+                    <h3 className="text-2xl md:text-3xl font-bold leading-tight shadow-black drop-shadow-md">
+                      {selectedNews.title}
+                    </h3>
+                    <div className="flex items-center gap-2 mt-2 text-slate-300 text-sm">
+                      <Calendar size={14} /> {selectedNews.date}
+                    </div>
+                  </div>
+                </div>
+
+                {/* เนื้อหาข่าว */}
+                <div className="p-6 md:p-10 bg-white">
+                  {/* ใช้ dangerouslySetInnerHTML เพื่อแสดง HTML tag เช่น <p>, <ul> ได้ */}
+                  <div 
+                    // แก้ไขตรงนี้: เพิ่ม text-slate-800 และปรับ prose color ให้เข้มขึ้น
+                    className="prose prose-slate max-w-none text-slate-800 prose-p:text-slate-800 prose-headings:text-slate-900 prose-li:text-slate-800 prose-strong:text-slate-900"
+                    dangerouslySetInnerHTML={{ __html: selectedNews.content }}
+                  ></div>
+
+                  <div className="mt-8 pt-6 border-t border-slate-100 flex justify-end">
+                    <button
+                      onClick={() => setSelectedNews(null)}
+                      className="px-6 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full font-bold transition-colors"
+                    >
+                      ปิดหน้าต่าง
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* --- ส่วนแสดงผลรูปภาพขยายใหญ่ (Image Modal) --- */}
         {openImage && (
           <div
@@ -1898,7 +1958,7 @@ export default function Home() {
             </button>
 
             {/* รูปภาพ */}
-            <div 
+            <div
               className="relative max-w-5xl max-h-[90vh] w-full flex items-center justify-center"
               onClick={(e) => e.stopPropagation()} // กดที่รูปแล้วไม่ปิด
             >
