@@ -1555,7 +1555,7 @@ export default function Home() {
                     />
                     {/* ✅ แก้ไข Link แผนที่ให้ถูกต้อง */}
                     <a
-                      href="https://www.google.com/maps/search/?api=1&query=311/1+ม.4+ต.คำน้ำเเซบ+อ.วารินชำราบ+จ.อุบลราชธานี+34190"
+                      href="https://maps.app.goo.gl/D1kcdXTTLdqSvVTCA"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-slate-400 hover:text-rose-400 transition-colors break-all text-sm block"
@@ -1701,7 +1701,7 @@ export default function Home() {
 
                 {/* 5. Map */}
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=311/1+ม.4+ต.คำน้ำเเซบ+อ.วารินชำราบ+จ.อุบลราชธานี+34190"
+                  href="https://maps.app.goo.gl/D1kcdXTTLdqSvVTCA"
                   target="_blank"
                   className="block p-1 rounded-2xl group overflow-hidden relative"
                 >
