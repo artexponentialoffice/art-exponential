@@ -1413,7 +1413,7 @@ export default function Home() {
                   </a>
                   {/* Line Icon */}
                   <a
-                    href="https://lin.ee/twVZIGO"
+                    href="https://line.me/R/ti/p/@024lfgkw"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-white/5 hover:bg-[#06C755] rounded-xl flex items-center justify-center transition-all transform hover:scale-110 text-slate-400 hover:text-white"
@@ -1501,7 +1501,7 @@ export default function Home() {
                         Line Official
                       </div>
                       <a
-                        href="https://lin.ee/twVZIGO"
+                        href="https://line.me/R/ti/p/@024lfgkw"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-slate-400 hover:text-[#06C755] transition-colors"
