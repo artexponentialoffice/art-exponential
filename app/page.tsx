@@ -180,11 +180,11 @@ const clients = [
 /* ---------- 3D ANIMATION COMPONENT ---------- */
 const ElectricalSystem3D = () => {
   return (
-    <div className="relative w-full h-[350px] md:h-[500px] flex items-center justify-center perspective-[1200px] overflow-visible select-none pointer-events-none scale-75 md:scale-100">
+    <div className="relative w-full h-[350px] md:h-[500px] flex items-center justify-center perspective-distant overflow-visible select-none pointer-events-none scale-75 md:scale-100">
       {/* Container for the 3D Scene */}
-      <div className="relative w-[300px] h-[300px] transform-style-3d rotate-x-[15deg] rotate-y-[-20deg] animate-scene-float">
+      <div className="relative w-[300px] h-[300px] transform-style-3d rotate-x-15 rotate-y-[-20deg] animate-scene-float">
         {/* --- 1. SOLAR PANEL (Background) --- */}
-        <div className="absolute top-[-100px] left-[40px] w-[180px] h-[120px] transform-style-3d translate-z-[20px] rotate-x-[10deg] opacity-90">
+        <div className="absolute top-[-100px] left-10 w-[180px] h-[120px] transform-style-3d translate-z-5 rotate-x-10 opacity-90">
           <div className="absolute inset-0 bg-linear-to-br from-blue-900 to-slate-900 border border-slate-600 rounded-lg overflow-hidden shadow-lg">
             <div
               className="absolute inset-0 opacity-30"
@@ -196,11 +196,11 @@ const ElectricalSystem3D = () => {
             ></div>
           </div>
           {/* Stand */}
-          <div className="absolute top-[50%] left-[50%] w-2 h-[80px] bg-slate-400 transform -translate-x-1/2 rotate-x-[-45deg] origin-top"></div>
+          <div className="absolute top-[50%] left-[50%] w-2 h-20 bg-slate-400 transform -translate-x-1/2 -rotate-x-45 origin-top"></div>
         </div>
 
         {/* --- 2. CONTROL BOX / BREAKER (Right Side) --- */}
-        <div className="absolute top-[20px] right-[-40px] w-[100px] h-[140px] transform-style-3d translate-z-[40px]">
+        <div className="absolute top-5 -right-10 w-[100px] h-[140px] transform-style-3d translate-z-10">
           <div className="absolute inset-0 bg-slate-100 border-2 border-slate-300 rounded-lg shadow-xl flex flex-col p-2">
             <div className="flex justify-between items-center mb-2">
               <div className="w-2 h-2 rounded-full bg-red-500"></div>
@@ -222,11 +222,11 @@ const ElectricalSystem3D = () => {
             </div>
           </div>
           {/* Cable going out */}
-          <div className="absolute bottom-[-20px] left-[50%] w-4 h-20 bg-slate-800 -translate-x-1/2 -z-10 rounded-full"></div>
+          <div className="absolute -bottom-5 left-[50%] w-4 h-20 bg-slate-800 -translate-x-1/2 -z-10 rounded-full"></div>
         </div>
 
         {/* --- 3. WIRE SPOOLS (Foreground Left - HERO PRODUCT) --- */}
-        <div className="absolute bottom-[20px] left-[-30px] transform-style-3d translate-z-[80px]">
+        <div className="absolute bottom-5 left-[-30px] transform-style-3d translate-z-20">
           {/* Spool 1 (Copper) */}
           <div className="relative w-24 h-24 group">
             {/* The coil (Cylinder illusion) */}
@@ -240,18 +240,18 @@ const ElectricalSystem3D = () => {
           </div>
 
           {/* Spool 2 (Black Wire - Stacked behind) */}
-          <div className="absolute bottom-4 left-10 w-20 h-20 transform translate-z-[-20px]">
-            <div className="absolute inset-0 rounded-full border-[10px] border-slate-800 bg-slate-900 shadow-lg flex items-center justify-center transform rotate-y-[30deg]">
+          <div className="absolute bottom-4 left-10 w-20 h-20 transform -translate-z-5">
+            <div className="absolute inset-0 rounded-full border-10 border-slate-800 bg-slate-900 shadow-lg flex items-center justify-center transform rotate-y-30">
               <div className="w-10 h-10 rounded-full bg-black border-2 border-slate-700"></div>
             </div>
           </div>
         </div>
 
         {/* --- 3b. TOOLBOX --- */}
-        <div className="absolute bottom-[-120px] right-[-10px] transform-style-3d animate-toolbox-bob">
+        <div className="absolute bottom-[-120px] -right-2.5 transform-style-3d animate-toolbox-bob">
           <div className="absolute inset-x-4 -bottom-3 h-4 bg-black/40 blur-md rounded-full"></div>
           <div className="relative w-32 h-18">
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-28 h-6 bg-red-700 rounded-t-xl border border-red-900 shadow-lg transform origin-bottom -rotate-x-[15deg]">
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-28 h-6 bg-red-700 rounded-t-xl border border-red-900 shadow-lg transform origin-bottom -rotate-x-15">
               <div className="absolute inset-x-8 top-1 h-3 rounded-full bg-red-500/60"></div>
             </div>
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-28 h-14 bg-red-600 border-2 border-red-900 rounded-xl shadow-2xl flex items-center justify-between px-3">
@@ -299,7 +299,7 @@ const ElectricalSystem3D = () => {
         </div>
 
         {/* --- 4. FLOATING TOOLS --- */}
-        <div className="absolute bottom-[40px] right-[20px] transform-style-3d translate-z-[100px] flex flex-col gap-4">
+        <div className="absolute bottom-10 right-5 transform-style-3d translate-z-[100px] flex flex-col gap-4">
           <div className="w-16 h-24 bg-yellow-400 rounded-lg border-2 border-yellow-600 shadow-2xl p-2 relative animate-float delay-700">
             <div className="w-full h-8 bg-slate-200 border border-slate-400 mb-2 font-mono text-xs flex items-center justify-end px-1 text-slate-800">
               220 V
@@ -331,7 +331,7 @@ const ElectricalSystem3D = () => {
 
         {/* --- 6. CONNECTING CABLES (SVG) --- */}
         <svg
-          className="absolute top-0 left-0 w-full h-full pointer-events-none transform-style-3d translate-z-[10px]"
+          className="absolute top-0 left-0 w-full h-full pointer-events-none transform-style-3d translate-z-2.5"
           style={{ overflow: "visible" }}
         >
           <path
@@ -360,7 +360,7 @@ const ElectricalSystem3D = () => {
         </svg>
 
         {/* --- 7. FLOATING BADGES --- */}
-        <div className="absolute top-[20px] left-[-20px] bg-white/90 backdrop-blur px-3 py-1.5 rounded-lg shadow-lg border-l-4 border-emerald-500 transform translate-z-[120px] animate-float">
+        <div className="absolute top-5 -left-5 bg-white/90 backdrop-blur px-3 py-1.5 rounded-lg shadow-lg border-l-4 border-emerald-500 transform translate-z-[120px] animate-float">
           <div className="flex items-center gap-2">
             <CheckCircle2 size={14} className="text-emerald-500" />
             <span className="text-xs font-bold text-slate-800">In Stock</span>
@@ -427,7 +427,7 @@ export default function Home() {
   // 3. ส่วนแสดงผล Loading Screen
   const LoadingScreen = () => (
     <div
-      className={`fixed inset-0 z-[9999] bg-[#0f172a] flex flex-col items-center justify-center transition-all duration-1000 ease-in-out ${
+      className={`fixed inset-0 z-9999 bg-[#0f172a] flex flex-col items-center justify-center transition-all duration-1000 ease-in-out ${
         isLoading
           ? "opacity-100 visible"
           : "opacity-0 invisible pointer-events-none"
