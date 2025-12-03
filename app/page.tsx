@@ -727,7 +727,7 @@ export default function Home() {
         {/* HERO SECTION */}
         <section
           id="หน้าแรก"
-          className="relative min-h-[95vh] flex items-center pt-24 pb-12 md:pt-20 md:pb-25 overflow-hidden bg-gradient-to-br from-white via-[#D4AF37]/5 to-slate-200/50"
+          className="relative min-h-[95vh] flex items-center pt-24 pb-12 md:pt-20 md:pb-25 overflow-hidden bg-linear-to-br from-white via-[#D4AF37]/5 to-slate-200/50"
         >
           <div className="absolute inset-0 bg-grid-tech opacity-40"></div>
           <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#D4AF37]/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3"></div>
@@ -892,7 +892,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-lg group">
-                    <div className="absolute inset-0 bg-gradient-to-br from-[#0f172a] to-slate-800 opacity-90 group-hover:opacity-95 transition-opacity flex items-center justify-center">
+                    <div className="absolute inset-0 bg-linear-to-br from-[#0f172a] to-slate-800 opacity-90 group-hover:opacity-95 transition-opacity flex items-center justify-center">
                       <Building2
                         size={120}
                         className="text-white/20 transform group-hover:scale-110 transition-transform duration-700"
@@ -911,8 +911,8 @@ export default function Home() {
                 <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500 relative z-10">
                   <div className="flex flex-col md:flex-row items-center gap-10 justify-center">
                     <div className="relative group">
-                      <div className="absolute inset-0 bg-[#D4AF37] rounded-[2rem] rotate-6 group-hover:rotate-3 transition-transform duration-500 opacity-20"></div>
-                      <div className="relative w-64 h-80 rounded-[2rem] overflow-hidden shadow-xl bg-slate-50">
+                      <div className="absolute inset-0 bg-[#D4AF37] rounded-4xl rotate-6 group-hover:rotate-3 transition-transform duration-500 opacity-20"></div>
+                      <div className="relative w-64 h-80 rounded-4xl overflow-hidden shadow-xl bg-slate-50">
                         <img
                           src={ceo.image}
                           alt={ceo.name}
@@ -944,7 +944,7 @@ export default function Home() {
               )}
               {activeAboutTab === "vision" && (
                 <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500 grid md:grid-cols-3 gap-8 relative z-10">
-                  <div className="md:col-span-1 bg-gradient-to-br from-[#0f172a] to-slate-800 rounded-3xl p-8 text-white shadow-lg flex flex-col justify-between relative overflow-hidden">
+                  <div className="md:col-span-1 bg-linear-to-br from-[#0f172a] to-slate-800 rounded-3xl p-8 text-white shadow-lg flex flex-col justify-between relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2"></div>
                     <Target
                       size={48}
@@ -1129,7 +1129,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-6 lg:gap-8 mb-20">
               {/* Card 1: อุปกรณ์ไฟฟ้า */}
               <div
-                className="relative group overflow-hidden rounded-[2rem] bg-white shadow-xl shadow-slate-100 border border-slate-100 p-6 md:p-8 lg:p-12 flex flex-col justify-between cursor-pointer hover:shadow-[#D4AF37]/20 hover:border-[#D4AF37]/50 transition-all duration-500 min-h-[400px] lg:min-h-[600px]"
+                className="relative group overflow-hidden rounded-4xl bg-white shadow-xl shadow-slate-100 border border-slate-100 p-6 md:p-8 lg:p-12 flex flex-col justify-between cursor-pointer hover:shadow-[#D4AF37]/20 hover:border-[#D4AF37]/50 transition-all duration-500 min-h-[400px] lg:min-h-[600px]"
                 onClick={() =>
                   setSelectedCategory({
                     title: "อุปกรณ์ไฟฟ้าและงานติดตั้ง",
@@ -1163,7 +1163,7 @@ export default function Home() {
                         key={i}
                         className="flex items-center gap-3 text-slate-600 font-medium text-sm md:text-base"
                       >
-                        <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 flex-shrink-0">
+                        <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 shrink-0">
                           <CheckCircle2 size={14} />
                         </div>
                         {item}
@@ -1183,13 +1183,13 @@ export default function Home() {
                     alt="Electrical Products"
                     className="w-full h-full object-cover rounded-l-3xl shadow-2xl"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent"></div>
+                  <div className="absolute inset-0 bg-linear-to-r from-white via-transparent to-transparent"></div>
                 </div>
               </div>
 
               {/* Card 2: งานติดตั้ง */}
               <div
-                className="relative group overflow-hidden rounded-[2rem] bg-[#0f172a] shadow-xl shadow-slate-300/50 border border-slate-800 p-6 md:p-8 lg:p-12 flex flex-col justify-between cursor-pointer hover:shadow-slate-400/50 transition-all duration-500 min-h-[400px] lg:min-h-[600px]"
+                className="relative group overflow-hidden rounded-4xl bg-[#0f172a] shadow-xl shadow-slate-300/50 border border-slate-800 p-6 md:p-8 lg:p-12 flex flex-col justify-between cursor-pointer hover:shadow-slate-400/50 transition-all duration-500 min-h-[400px] lg:min-h-[600px]"
                 onClick={() =>
                   setSelectedCategory({
                     title: "งานติดตั้งและซ่อมบำรุง",
@@ -1244,7 +1244,7 @@ export default function Home() {
                 </div>
 
                 <div className="absolute bottom-0 right-0 opacity-5 group-hover:opacity-10 transition-opacity transform translate-x-10 translate-y-10 text-white pointer-events-none">
-                  <Wrench size={200} className="md:w-[240px] md:h-[240px]" />
+                  <Wrench size={200} className="md:w-60 md:h-60" />
                 </div>
               </div>
             </div>
@@ -1294,7 +1294,7 @@ export default function Home() {
                           objectFit="cover"
                           className="transition-transform duration-700 group-hover/card:scale-110"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-transparent to-transparent opacity-90"></div>
+                        <div className="absolute inset-0 bg-linear-to-t from-[#0f172a] via-transparent to-transparent opacity-90"></div>
                       </div>
                       <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-6 rounded-3xl border border-white/20 shadow-xl transition-all duration-300 group-hover/card:bottom-6">
                         <div className="flex justify-between items-start mb-3">
@@ -1354,7 +1354,7 @@ export default function Home() {
               {[...clients, ...clients, ...clients].map((client, idx) => (
                 <div
                   key={idx}
-                  className="flex-shrink-0 w-[40vw] md:w-56 h-32 bg-white rounded-2xl border border-slate-100 shadow-sm flex items-center justify-center p-6 hover:shadow-md hover:border-[#D4AF37]/30 transition-all cursor-pointer"
+                  className="shrink-0 w-[40vw] md:w-56 h-32 bg-white rounded-2xl border border-slate-100 shadow-sm flex items-center justify-center p-6 hover:shadow-md hover:border-[#D4AF37]/30 transition-all cursor-pointer"
                 >
                   <img
                     src={client.logo}
@@ -1476,7 +1476,7 @@ export default function Home() {
                   <li className="flex items-start space-x-3 group">
                     <Phone
                       size={20}
-                      className="mt-1 flex-shrink-0 text-[#D4AF37] group-hover:text-white transition-colors"
+                      className="mt-1 shrink-0 text-[#D4AF37] group-hover:text-white transition-colors"
                     />
                     <div>
                       <div className="font-semibold text-white">
@@ -1493,7 +1493,7 @@ export default function Home() {
 
                   {/* Line Official */}
                   <li className="flex items-start space-x-3 group">
-                    <div className="mt-1 flex-shrink-0 text-[#06C755] group-hover:text-white transition-colors">
+                    <div className="mt-1 shrink-0 text-[#06C755] group-hover:text-white transition-colors">
                       <FaLine size={20} />
                     </div>
                     <div>
@@ -1515,7 +1515,7 @@ export default function Home() {
                   <li className="flex items-start space-x-3 group">
                     <Facebook
                       size={20}
-                      className="mt-1 flex-shrink-0 text-[#1877F2] group-hover:text-white transition-colors"
+                      className="mt-1 shrink-0 text-[#1877F2] group-hover:text-white transition-colors"
                     />
                     <div>
                       <div className="font-semibold text-white">Facebook</div>
@@ -1534,7 +1534,7 @@ export default function Home() {
                   <li className="flex items-start space-x-3 group">
                     <Mail
                       size={20}
-                      className="mt-1 flex-shrink-0 text-rose-400 group-hover:text-white transition-colors"
+                      className="mt-1 shrink-0 text-rose-400 group-hover:text-white transition-colors"
                     />
                     <div>
                       <div className="font-semibold text-white">อีเมล</div>
@@ -1551,7 +1551,7 @@ export default function Home() {
                   <li className="flex items-start space-x-3 group">
                     <MapPin
                       size={20}
-                      className="mt-1 flex-shrink-0 text-red-400 group-hover:text-white transition-colors"
+                      className="mt-1 shrink-0 text-red-400 group-hover:text-white transition-colors"
                     />
                     {/* ✅ แก้ไข Link แผนที่ให้ถูกต้อง */}
                     <a
@@ -1596,11 +1596,11 @@ export default function Home() {
         {/* MODALS - CONTACT US (Full Screen Overlay) */}
         {isContactOpen && (
           <div
-            className="fixed inset-0 bg-slate-900/40 backdrop-blur-md z-[90] flex items-center justify-center p-4 animate-in fade-in duration-200"
+            className="fixed inset-0 bg-slate-900/40 backdrop-blur-md z-90 flex items-center justify-center p-4 animate-in fade-in duration-200"
             onClick={() => setIsContactOpen(false)}
           >
             <div
-              className="bg-white rounded-[2rem] w-full max-w-lg shadow-2xl overflow-hidden animate-in zoom-in-95 duration-300 border border-slate-100"
+              className="bg-white rounded-4xl w-full max-w-lg shadow-2xl overflow-hidden animate-in zoom-in-95 duration-300 border border-slate-100"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Header */}
@@ -1725,11 +1725,11 @@ export default function Home() {
         {/* Product Modal Components */}
         {selectedCategory && (
           <div
-            className="fixed inset-0 bg-slate-900/20 backdrop-blur-sm z-[60] flex items-center justify-center p-4 animate-in fade-in duration-200"
+            className="fixed inset-0 bg-slate-900/20 backdrop-blur-sm z-60 flex items-center justify-center p-4 animate-in fade-in duration-200"
             onClick={() => setSelectedCategory(null)}
           >
             <div
-              className="bg-white rounded-[2rem] w-full max-w-5xl max-h-[85vh] flex flex-col overflow-hidden shadow-2xl"
+              className="bg-white rounded-2rem w-full max-w-5xl max-h-[85vh] flex flex-col overflow-hidden shadow-2xl"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="p-6 border-b border-slate-100 flex justify-between items-center bg-slate-50/50">
@@ -1789,7 +1789,7 @@ export default function Home() {
         {/* MODAL - PRODUCT DETAIL (Updated: Responsive & Close Button) */}
         {selectedProduct && (
           <div
-            className="fixed inset-0 z-[70] overflow-y-auto"
+            className="fixed inset-0 z-70 overflow-y-auto"
             role="dialog"
             aria-modal="true"
           >
@@ -1802,7 +1802,7 @@ export default function Home() {
             {/* Container for scrolling */}
             <div className="flex min-h-full items-center justify-center p-4 text-center sm:p-0">
               <div
-                className="relative transform overflow-hidden rounded-[2rem] bg-white text-left shadow-2xl transition-all sm:my-8 w-full max-w-4xl flex flex-col md:grid md:grid-cols-2 animate-in zoom-in-95 duration-300"
+                className="relative transform overflow-hidden rounded-2rem bg-white text-left shadow-2xl transition-all sm:my-8 w-full max-w-4xl flex flex-col md:grid md:grid-cols-2 animate-in zoom-in-95 duration-300"
                 onClick={(e) => e.stopPropagation()}
               >
                 {/* --- ปุ่มปิด (Close Button) ที่เพิ่มใหม่ --- */}
@@ -1822,7 +1822,7 @@ export default function Home() {
                     alt={selectedProduct.name}
                   />
                   {/* Gradient Overlay for text readability on mobile if needed */}
-                  <div className="md:hidden absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none"></div>
+                  <div className="md:hidden absolute inset-0 bg-linear-to-t from-black/50 to-transparent pointer-events-none"></div>
                 </div>
 
                 {/* Content Section */}
@@ -1871,7 +1871,7 @@ export default function Home() {
         {/* --- NEWS MODAL (หน้าต่างอ่านข่าว) --- */}
         {selectedNews && (
           <div
-            className="fixed inset-0 z-[80] overflow-y-auto"
+            className="fixed inset-0 z-80 overflow-y-auto"
             role="dialog"
             aria-modal="true"
           >
@@ -1883,7 +1883,7 @@ export default function Home() {
 
             <div className="flex min-h-full items-center justify-center p-4 text-center sm:p-0">
               <div
-                className="relative transform overflow-hidden rounded-[2rem] bg-white text-left shadow-2xl transition-all w-full max-w-3xl flex flex-col animate-in slide-in-from-bottom-8 duration-500"
+                className="relative transform overflow-hidden rounded-4xl bg-white text-left shadow-2xl transition-all w-full max-w-3xl flex flex-col animate-in slide-in-from-bottom-8 duration-500"
                 onClick={(e) => e.stopPropagation()}
               >
                 {/* ปุ่มปิด */}
@@ -1902,7 +1902,7 @@ export default function Home() {
                     layout="fill"
                     objectFit="cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                  <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent"></div>
 
                   {/* Category & Date บนรูป */}
                   <div className="absolute bottom-6 left-6 right-6 text-white">
@@ -1944,13 +1944,13 @@ export default function Home() {
         {/* --- ส่วนแสดงผลรูปภาพขยายใหญ่ (Image Modal) --- */}
         {openImage && (
           <div
-            className="fixed inset-0 z-[999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200"
+            className="fixed inset-0 z-999 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200"
             onClick={() => setOpenImage(null)}
           >
             {/* ปุ่มปิด (X) */}
             <button
               onClick={() => setOpenImage(null)}
-              className="absolute top-6 right-6 text-white/70 hover:text-white transition-colors z-[1000]"
+              className="absolute top-6 right-6 text-white/70 hover:text-white transition-colors z-1000"
             >
               <X size={40} />
             </button>
