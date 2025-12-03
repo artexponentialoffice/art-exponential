@@ -1413,7 +1413,7 @@ export default function Home() {
                   </a>
                   {/* Line Icon */}
                   <a
-                    href="https://line.me/R/ti/p/@024lfgkw"
+                    href="https://lin.ee/twVZIGO"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-white/5 hover:bg-[#06C755] rounded-xl flex items-center justify-center transition-all transform hover:scale-110 text-slate-400 hover:text-white"
@@ -1421,13 +1421,13 @@ export default function Home() {
                     <FaLine size={24} />
                   </a>
                   <a
-                    href="mailto:TJC.OFFICE21@gmail.com"
+                    href="mailto:a.r.t.exponential.office@gmail.com"
                     className="w-12 h-12 bg-white/5 hover:bg-rose-500 rounded-xl flex items-center justify-center transition-all transform hover:scale-110 text-slate-400 hover:text-white"
                   >
                     <Mail size={24} />
                   </a>
                   <a
-                    href="tel:0804746169"
+                    href="tel:080-474-8917"
                     className="w-12 h-12 bg-white/5 hover:bg-[#D4AF37] rounded-xl flex items-center justify-center transition-all transform hover:scale-110 text-slate-400 hover:text-white"
                   >
                     <Phone size={24} />
@@ -1480,13 +1480,13 @@ export default function Home() {
                     />
                     <div>
                       <div className="font-semibold text-white">
-                        โทรศัพท์สำนักงาน
+                        โทรศัพท์
                       </div>
                       <a
-                        href="tel:0945438829"
+                        href="tel:080-474-8917"
                         className="text-slate-400 hover:text-[#D4AF37] transition-colors"
                       >
-                        094-543-8829
+                        080-474-8917
                       </a>
                     </div>
                   </li>
@@ -1501,7 +1501,7 @@ export default function Home() {
                         Line Official
                       </div>
                       <a
-                        href="https://line.me/R/ti/p/@024lfgkw"
+                        href="https://lin.ee/twVZIGO"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-slate-400 hover:text-[#06C755] transition-colors"
@@ -1633,10 +1633,10 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-sm text-slate-500 font-medium">
-                      โทรศัพท์ด่วน
+                      โทรศัพท์
                     </div>
                     <div className="font-bold text-slate-900 text-xl">
-                      094-543-8829
+                      080-474-8917
                     </div>
                   </div>
                 </a>
@@ -1681,7 +1681,7 @@ export default function Home() {
 
                 {/* 4. Email */}
                 <a
-                  href="mailto:TJC.OFFICE21@gmail.com"
+                  href="mailto:a.r.t.exponential.office@gmail.com"
                   className="flex items-center gap-4 p-4 bg-white border border-slate-100 rounded-2xl hover:border-[#EA4335] hover:shadow-lg hover:shadow-[#EA4335]/10 hover:-translate-y-1 transition-all group"
                 >
                   <div className="w-14 h-14 bg-[#EA4335]/10 rounded-full flex items-center justify-center text-[#EA4335] group-hover:bg-[#EA4335] group-hover:text-white transition-colors">
@@ -1692,7 +1692,7 @@ export default function Home() {
                       ส่งอีเมลสอบถาม
                     </div>
                     <div className="font-bold text-slate-900 text-sm md:text-lg truncate">
-                      TJC.OFFICE21@gmail.com
+                      a.r.t.exponential.office@gmail.com
                     </div>
                   </div>
                 </a>
