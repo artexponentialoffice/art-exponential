@@ -79,88 +79,97 @@ const services = [
 ];
 
 /* --- NEWS DATA --- */
+/* --- NEWS DATA (UPDATED: 5 Locations Cleaned) --- */
 const newsUpdates = [
   {
     id: 1,
-    title: "ส่งมอบงานติดตั้งระบบไฟฟ้า โรงงานอุตสาหกรรมนวนคร",
-    category: "Project Update",
-    date: "15 Nov 2025",
-    image:
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1000",
+    title: "ติดตั้งระบบ Solar Rooftop รพ.สต. หัวดูน",
+    category: "Project Success",
+    date: "2560",
+    image: "/images/solar1.jpg",
     excerpt:
-      "ทีมวิศวกร A.R.T เข้าตรวจสอบและส่งมอบงานติดตั้งตู้ MDB ขนาด 3000A พร้อมระบบ Solar Rooftop",
+      "ส่งมอบงานติดตั้งระบบผลิตไฟฟ้าพลังงานแสงอาทิตย์ 10kW 3 เฟส พร้อมปรับปรุงระบบไฟฟ้าอาคาร",
     content: `
-      <p>ทีมวิศวกร A.R.T Exponential ได้ดำเนินการส่งมอบงานติดตั้งระบบไฟฟ้าหลัก (Main Distribution Board - MDB) ขนาด 3000A ให้กับโรงงานอุตสาหกรรมในนิคมนวนครเป็นที่เรียบร้อย</p>
+      <p>A.R.T Exponential ดำเนินการติดตั้งและส่งมอบงานระบบ <strong>Solar Rooftop ขนาด 10 กิโลวัตต์ (3 เฟส)</strong> ณ โรงพยาบาลส่งเสริมสุขภาพตำบลหัวดูน [cite: 64]</p>
       <br/>
-      <p>โดยโครงการนี้ครอบคลุมถึง:</p>
+      <p><strong>รายละเอียดการดำเนินงาน:</strong></p>
       <ul class="list-disc pl-5 my-2 space-y-1">
-        <li>การติดตั้งตู้ MDB และตู้ย่อย DB จำนวน 20 จุด</li>
-        <li>เดินสายเมนเข้าอาคารด้วยสาย THW ขนาด 500 sq.mm.</li>
-        <li>ติดตั้งระบบ Solar Rooftop ขนาด 500kWp เพื่อประหยัดพลังงาน</li>
-        <li>ทดสอบระบบด้วยเครื่องมือ Thermal Imaging Scan เพื่อหาจุดความร้อนก่อนส่งมอบ</li>
-      </ul>
-      <br/>
-      <p>เราภูมิใจที่เป็นส่วนหนึ่งในความสำเร็จของลูกค้า และมุ่งมั่นที่จะส่งมอบงานคุณภาพมาตรฐานสากลต่อไป</p>
-    `,
+        <li>ติดตั้งแผงโซลาร์เซลล์ประสิทธิภาพสูง รับพลังงานแสงอาทิตย์ได้เต็มพิกัด </li>
+        <li>เชื่อมต่อระบบขนานไฟกับการไฟฟ้า (Grid Connected) เพื่อช่วยลดภาระค่าไฟฟ้าของหน่วยงาน </li>
+        <li>เดินสายไฟและเก็บงานตามมาตรฐานความปลอดภัยทางวิศวกรรม</li>
+      </ul>`,
   },
   {
     id: 2,
-    title: "A.R.T EXPONENTIAL ได้รับรองมาตรฐาน ISO 9001:2015",
-    category: "Company News",
-    date: "01 Nov 2025",
-    image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000",
+    title: "ติดตั้งระบบ Solar Rooftop รพ.สต. หนองแต้",
+    category: "Project Success",
+    date: "2560",
+    image: "/images/solar2.jpg",
     excerpt:
-      "ยกระดับมาตรฐานการบริการและการจัดการ สู่ความเป็นเลิศในระดับสากล เพื่อความมั่นใจสูงสุดของลูกค้า",
+      "ติดตั้ง Inverter และระบบป้องกันไฟย้อน พร้อมปรับปรุงโครงสร้างหลังคาให้แข็งแรง",
     content: `
-      <p>บริษัท A.R.T Exponential จำกัด มีความยินดีที่จะประกาศว่า เราได้รับการรับรองมาตรฐานระบบบริหารงานคุณภาพ ISO 9001:2015 อย่างเป็นทางการ</p>
+      <p>ความคืบหน้าโครงการ ณ โรงพยาบาลส่งเสริมสุขภาพตำบลหนองแต้ ทีมงานได้เข้าดำเนินการติดตั้งอุปกรณ์หลักและทดสอบระบบ </p>
       <br/>
-      <p>การได้รับการรับรองในครั้งนี้ เป็นเครื่องยืนยันถึงความมุ่งมั่นของเราในการพัฒนาระบบการทำงานให้มีประสิทธิภาพ ตรวจสอบได้ และมุ่งเน้นความพึงพอใจของลูกค้าเป็นสำคัญ ตั้งแต่กระบวนการรับความต้องการ การออกแบบติดตั้ง ไปจนถึงบริการหลังการขาย</p>
-    `,
+      <p><strong>อุปกรณ์และระบบที่ติดตั้ง:</strong></p>
+      <ul class="list-disc pl-5 my-2 space-y-1">
+        <li><strong>Inverter:</strong> ติดตั้งอินเวอร์เตอร์ 3 เฟส 10kW ชนิดต่อร่วมกับระบบไฟฟ้า </li>
+        <li><strong>Zero Export:</strong> ติดตั้งอุปกรณ์ป้องกันไฟไหลย้อน เพื่อความปลอดภัยของระบบ </li>
+        <li><strong>Structure:</strong> ปรับปรุงกระเบื้องหลังคาและทำกันซึม (Roof Seal) ก่อนติดตั้งแผง </li>
+      </ul>`,
   },
   {
     id: 3,
-    title: "จัดอบรมความปลอดภัยทางไฟฟ้า ประจำปี 2568",
-    category: "Activity",
-    date: "20 Oct 2025",
-    image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1000",
+    title: "ติดตั้งระบบ Solar Rooftop รพ.สต. หนองขอน",
+    category: "Project Success",
+    date: "2560",
+    image: "/images/solar3.jpg",
     excerpt:
-      "เสริมสร้างความรู้และทักษะความปลอดภัยในการปฏิบัติงานให้กับพนักงานทุกคน",
+      "งานติดตั้งโครงสร้างรองรับแผง (Mounting) และเดินสายไฟ PV1-F มาตรฐานสากล",
     content: `
-      <p>เพื่อความปลอดภัยสูงสุดในการปฏิบัติงาน A.R.T Exponential ได้จัดโครงการอบรม "Electrical Safety Awareness 2025" ให้กับทีมช่างและวิศวกรทุกคน</p>
+      <p>ทีมวิศวกรเข้าดำเนินการติดตั้งระบบโซลาร์เซลล์ ณ โรงพยาบาลส่งเสริมสุขภาพตำบลหนองขอน โดยเน้นความประณีตและความปลอดภัยสูงสุด </p>
       <br/>
-      <p>หัวข้อการอบรมประกอบด้วย:</p>
+      <p><strong>รายละเอียดทางเทคนิค:</strong></p>
       <ul class="list-disc pl-5 my-2 space-y-1">
-        <li>กฎกระทรวงและมาตรฐานความปลอดภัยใหม่ล่าสุด</li>
-        <li>การปฐมพยาบาลและการทำ CPR ผู้ถูกไฟฟ้าดูด</li>
-        <li>การใช้งานอุปกรณ์ PPE อย่างถูกต้อง</li>
-        <li>Workshop จำลองสถานการณ์ฉุกเฉิน</li>
-      </ul>
-    `,
+        <li><strong>Mounting Structure:</strong> ติดตั้งโครงสร้างรองรับแผงโซลาร์เซลล์ที่แข็งแรง ทนทานต่อแรงลม </li>
+        <li><strong>Cabling:</strong> เลือกใช้สายไฟชนิด PV1-F สำหรับระบบโซลาร์เซลล์โดยเฉพาะ เพื่ออายุการใช้งานที่ยาวนาน </li>
+        <li>ติดตั้งตู้ควบคุมระบบไฟฟ้า (Control Panel) มาตรฐานกันน้ำกันฝุ่น </li>
+      </ul>`,
   },
   {
     id: 4,
-    title: "เปิดตัวสินค้าใหม่: Smart Meter IoT Ready",
-    category: "Product Launch",
-    date: "10 Oct 2025",
-    image:
-      "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&q=80&w=1000",
+    title: "ติดตั้งระบบ Solar Rooftop รพ.สต. แสนสุข",
+    category: "Project Success",
+    date: "2560",
+    image: "/images/solar4.jpg",
     excerpt:
-      "นวัตกรรมมิเตอร์ไฟฟ้าอัจฉริยะ ที่ช่วยให้คุณตรวจสอบการใช้พลังงานได้ผ่านมือถือแบบ Real-time",
+      "อัปเกรดระบบไฟฟ้า Main Breaker และติดตั้งเครื่องสำรองไฟ UPS เพื่อความเสถียร",
     content: `
-      <p>พบกับนวัตกรรมใหม่ล่าสุดจาก A.R.T Exponential กับ "Smart Meter IoT Series 5"</p>
+      <p>การดำเนินงานที่ โรงพยาบาลส่งเสริมสุขภาพตำบลแสนสุข นอกจากการติดตั้งแผงโซลาร์เซลล์แล้ว ยังมีการปรับปรุงระบบไฟฟ้าภายใน </p>
       <br/>
-      <p>จุดเด่นผลิตภัณฑ์:</p>
+      <p><strong>งานระบบประกอบ:</strong></p>
       <ul class="list-disc pl-5 my-2 space-y-1">
-        <li>ดูค่าไฟฟ้า Real-time ผ่านแอพพลิเคชั่นบนมือถือ</li>
-        <li>แจ้งเตือนเมื่อมีไฟตก ไฟเกิน หรือกระแสไฟผิดปกติ</li>
-        <li>รองรับการเชื่อมต่อ WiFi และ 4G/5G</li>
-        <li>เก็บข้อมูลย้อนหลังได้สูงสุด 5 ปี</li>
-      </ul>
+        <li><strong>Load Center:</strong> เปลี่ยนตู้ควบคุมไฟหลักและ Main Breaker 3P 100A ใหม่ </li>
+        <li><strong>UPS:</strong> ติดตั้งเครื่องสำรองไฟฟ้าขนาด 3 kVA สำหรับระบบคอมพิวเตอร์และเซิร์ฟเวอร์ </li>
+        <li>ทดสอบการทำงานร่วมกันระหว่างระบบไฟฟ้าเดิมและระบบโซลาร์เซลล์</li>
+      </ul>`,
+  },
+  {
+    id: 5,
+    title: "ติดตั้งระบบ Solar Rooftop รพ.สต. กุดโบสถ์",
+    category: "Project Success",
+    date: "2560",
+    image: "/images/solar5.jpg",
+    excerpt:
+      "ติดตั้งระบบติดตามผล (Monitoring) และตรวจสอบระบบความปลอดภัยก่อนส่งมอบ",
+    content: `
+      <p>โครงการติดตั้งระบบผลิตไฟฟ้าพลังงานแสงอาทิตย์ ณ โรงพยาบาลส่งเสริมสุขภาพตำบลกุดโบสถ์ พร้อมใช้งานเต็มรูปแบบ</p>
       <br/>
-      <p>พร้อมจำหน่ายและติดตั้งแล้ววันนี้ สอบถามข้อมูลเพิ่มเติมได้ที่ฝ่ายขาย</p>
-    `,
+      <p><strong>การตรวจสอบและส่งมอบ:</strong></p>
+      <ul class="list-disc pl-5 my-2 space-y-1">
+        <li><strong>Monitoring System:</strong> ติดตั้งระบบติดตามผลการผลิตไฟฟ้าแบบ Real-time ผ่านระบบออนไลน์ </li>
+        <li><strong>Safety Check:</strong> ตรวจสอบระบบตัดไฟฉุกเฉินและระบบสายดิน เพื่อความปลอดภัยของผู้ใช้งาน</li>
+        <li>ส่งมอบงานพร้อมคู่มือการดูแลรักษาให้กับเจ้าหน้าที่</li>
+      </ul>`,
   },
 ];
 
@@ -176,6 +185,8 @@ const clients = [
   { name: "เทศบาลอุบลฯ", logo: "/images/tessabanubon.png" },
   { name: "เทคนิคอุบลฯ", logo: "/images/technicalubon.jpg" },
 ];
+
+
 
 /* ---------- 3D ANIMATION COMPONENT ---------- */
 const ElectricalSystem3D = () => {
@@ -230,7 +241,7 @@ const ElectricalSystem3D = () => {
           {/* Spool 1 (Copper) */}
           <div className="relative w-24 h-24 group">
             {/* The coil (Cylinder illusion) */}
-            <div className="absolute inset-0 rounded-full border-[12px] border-[#b45309] bg-[#78350f] shadow-xl flex items-center justify-center transform rotate-y-[30deg]">
+            <div className="absolute inset-0 rounded-full border-12 border-[#b45309] bg-[#78350f] shadow-xl flex items-center justify-center transform rotate-y-30">
               <div className="w-12 h-12 rounded-full bg-black/50 border-4 border-slate-800"></div>
             </div>
             {/* Label */}
@@ -548,46 +559,108 @@ export default function Home() {
           background: #b59024;
         }
         @keyframes float {
-          0%, 100% { transform: translateY(0px) translateZ(50px); }
-          50% { transform: translateY(-10px) translateZ(50px); }
+          0%,
+          100% {
+            transform: translateY(0px) translateZ(50px);
+          }
+          50% {
+            transform: translateY(-10px) translateZ(50px);
+          }
         }
-        .animate-float { animation: float 6s ease-in-out infinite; }
+        .animate-float {
+          animation: float 6s ease-in-out infinite;
+        }
         @keyframes scene-float {
-          0%, 100% { transform: rotateX(20deg) rotateY(-15deg) translateY(0px); }
-          50% { transform: rotateX(20deg) rotateY(-15deg) translateY(-15px); }
+          0%,
+          100% {
+            transform: rotateX(20deg) rotateY(-15deg) translateY(0px);
+          }
+          50% {
+            transform: rotateX(20deg) rotateY(-15deg) translateY(-15px);
+          }
         }
-        .animate-scene-float { animation: scene-float 8s ease-in-out infinite; }
+        .animate-scene-float {
+          animation: scene-float 8s ease-in-out infinite;
+        }
         @keyframes bounce-slow {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-5px); }
+          0%,
+          100% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-5px);
+          }
         }
-        .animate-bounce-slow { animation: bounce-slow 3s infinite ease-in-out; }
+        .animate-bounce-slow {
+          animation: bounce-slow 3s infinite ease-in-out;
+        }
         @keyframes pulse-glow {
-          0%, 100% { opacity: 0.3; transform: scale(1); }
-          50% { opacity: 0.5; transform: scale(1.1); }
+          0%,
+          100% {
+            opacity: 0.3;
+            transform: scale(1);
+          }
+          50% {
+            opacity: 0.5;
+            transform: scale(1.1);
+          }
         }
-        .animate-pulse-glow { animation: pulse-glow 4s infinite ease-in-out; }
+        .animate-pulse-glow {
+          animation: pulse-glow 4s infinite ease-in-out;
+        }
         @keyframes flow-line {
-          from { stroke-dashoffset: 20; }
-          to { stroke-dashoffset: 0; }
+          from {
+            stroke-dashoffset: 20;
+          }
+          to {
+            stroke-dashoffset: 0;
+          }
         }
-        .animate-flow-line { animation: flow-line 1s linear infinite; }
+        .animate-flow-line {
+          animation: flow-line 1s linear infinite;
+        }
         @keyframes scroll-left {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
         }
-        .animate-scroll-left { animation: scroll-left 80s linear infinite; }
-        .perspective-1000 { perspective: 1000px; }
-        .transform-style-3d { transform-style: preserve-3d; }
-        .translate-z-10 { transform: translateZ(10px); }
+        .animate-scroll-left {
+          animation: scroll-left 80s linear infinite;
+        }
+        .perspective-1000 {
+          perspective: 1000px;
+        }
+        .transform-style-3d {
+          transform-style: preserve-3d;
+        }
+        .translate-z-10 {
+          transform: translateZ(10px);
+        }
         .bg-grid-tech {
-          background-image: linear-gradient(to right, rgba(15, 23, 42, 0.03) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(15, 23, 42, 0.03) 1px, transparent 1px);
+          background-image: linear-gradient(
+              to right,
+              rgba(15, 23, 42, 0.03) 1px,
+              transparent 1px
+            ),
+            linear-gradient(
+              to bottom,
+              rgba(15, 23, 42, 0.03) 1px,
+              transparent 1px
+            );
           background-size: 40px 40px;
         }
-        .text-gold { color: #d4af37; }
-        .bg-gold { background-color: #d4af37; }
-        .border-gold { border-color: #d4af37; }
+        .text-gold {
+          color: #d4af37;
+        }
+        .bg-gold {
+          background-color: #d4af37;
+        }
+        .border-gold {
+          border-color: #d4af37;
+        }
         .text-gold-gradient {
           background: linear-gradient(to right, #d4af37, #f2d06b, #d4af37);
           -webkit-background-clip: text;
@@ -595,32 +668,77 @@ export default function Home() {
           background-clip: text;
         }
         @keyframes toolbox-bob {
-          0% { transform: translate3d(0, 0, 95px) rotateX(4deg) rotateY(-10deg); }
-          50% { transform: translate3d(0, -6px, 105px) rotateX(8deg) rotateY(-18deg); }
-          100% { transform: translate3d(0, 0, 95px) rotateX(4deg) rotateY(-10deg); }
+          0% {
+            transform: translate3d(0, 0, 95px) rotateX(4deg) rotateY(-10deg);
+          }
+          50% {
+            transform: translate3d(0, -6px, 105px) rotateX(8deg) rotateY(-18deg);
+          }
+          100% {
+            transform: translate3d(0, 0, 95px) rotateX(4deg) rotateY(-10deg);
+          }
         }
-        .animate-toolbox-bob { transform-origin: center bottom; animation: toolbox-bob 6s ease-in-out infinite; }
+        .animate-toolbox-bob {
+          transform-origin: center bottom;
+          animation: toolbox-bob 6s ease-in-out infinite;
+        }
         @keyframes tool-float-1 {
-          0% { opacity: 0; transform: translate3d(0, 8px, 0) rotateZ(-20deg); }
-          20% { opacity: 1; }
-          50% { transform: translate3d(0, -8px, 10px) rotateZ(-10deg); }
-          100% { opacity: 1; transform: translate3d(0, 6px, 0) rotateZ(-18deg); }
+          0% {
+            opacity: 0;
+            transform: translate3d(0, 8px, 0) rotateZ(-20deg);
+          }
+          20% {
+            opacity: 1;
+          }
+          50% {
+            transform: translate3d(0, -8px, 10px) rotateZ(-10deg);
+          }
+          100% {
+            opacity: 1;
+            transform: translate3d(0, 6px, 0) rotateZ(-18deg);
+          }
         }
         @keyframes tool-float-2 {
-          0% { opacity: 0; transform: translate3d(0, 10px, 0) rotateZ(18deg); }
-          25% { opacity: 1; }
-          55% { transform: translate3d(0, -10px, 12px) rotateZ(8deg); }
-          100% { opacity: 1; transform: translate3d(0, 4px, 0) rotateZ(15deg); }
+          0% {
+            opacity: 0;
+            transform: translate3d(0, 10px, 0) rotateZ(18deg);
+          }
+          25% {
+            opacity: 1;
+          }
+          55% {
+            transform: translate3d(0, -10px, 12px) rotateZ(8deg);
+          }
+          100% {
+            opacity: 1;
+            transform: translate3d(0, 4px, 0) rotateZ(15deg);
+          }
         }
         @keyframes tool-float-3 {
-          0% { opacity: 0; transform: translate3d(0, 4px, 0) scale(0.9); }
-          30% { opacity: 1; }
-          60% { transform: translate3d(0, -6px, 8px) scale(1.05); }
-          100% { opacity: 1; transform: translate3d(0, 2px, 0) scale(1); }
+          0% {
+            opacity: 0;
+            transform: translate3d(0, 4px, 0) scale(0.9);
+          }
+          30% {
+            opacity: 1;
+          }
+          60% {
+            transform: translate3d(0, -6px, 8px) scale(1.05);
+          }
+          100% {
+            opacity: 1;
+            transform: translate3d(0, 2px, 0) scale(1);
+          }
         }
-        .animate-tool-float-1 { animation: tool-float-1 4.5s ease-in-out infinite; }
-        .animate-tool-float-2 { animation: tool-float-2 4.8s ease-in-out infinite; }
-        .animate-tool-float-3 { animation: tool-float-3 5.2s ease-in-out infinite; }
+        .animate-tool-float-1 {
+          animation: tool-float-1 4.5s ease-in-out infinite;
+        }
+        .animate-tool-float-2 {
+          animation: tool-float-2 4.8s ease-in-out infinite;
+        }
+        .animate-tool-float-3 {
+          animation: tool-float-3 5.2s ease-in-out infinite;
+        }
       `}</style>
 
       <div className="min-h-screen overflow-x-hidden selection:bg-[#F2D06B] selection:text-slate-900">
@@ -698,7 +816,9 @@ export default function Home() {
           {/* Mobile Menu Dropdown (Fixed: Overflow & Visibility) */}
           <div
             className={`md:hidden absolute top-full left-0 w-full bg-white border-t border-slate-100 shadow-xl transition-all duration-300 overflow-hidden ${
-              isMenuOpen ? "max-h-[85vh] opacity-100 visible" : "max-h-0 opacity-0 invisible"
+              isMenuOpen
+                ? "max-h-[85vh] opacity-100 visible"
+                : "max-h-0 opacity-0 invisible"
             }`}
           >
             <div className="px-4 py-6 space-y-2 overflow-y-auto max-h-[80vh]">
@@ -1213,8 +1333,8 @@ export default function Home() {
                     งานติดตั้งและเดินระบบ
                   </h3>
                   <p className="text-slate-400 text-sm md:text-base lg:text-lg mb-6 max-w-md">
-                    บริการรับเหมาติดตั้งไฟฟ้าโรงงาน อาคารสูง และตรวจสอบระบบประจำปี
-                    โดยทีมวิศวกร
+                    บริการรับเหมาติดตั้งไฟฟ้าโรงงาน อาคารสูง
+                    และตรวจสอบระบบประจำปี โดยทีมวิศวกร
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4 mb-8">
@@ -1479,9 +1599,7 @@ export default function Home() {
                       className="mt-1 shrink-0 text-[#D4AF37] group-hover:text-white transition-colors"
                     />
                     <div>
-                      <div className="font-semibold text-white">
-                        โทรศัพท์
-                      </div>
+                      <div className="font-semibold text-white">โทรศัพท์</div>
                       <a
                         href="tel:080-474-8917"
                         className="text-slate-400 hover:text-[#D4AF37] transition-colors"
@@ -1558,14 +1676,15 @@ export default function Home() {
                       href="https://maps.app.goo.gl/D1kcdXTTLdqSvVTCA"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-slate-400 hover:text-rose-400 transition-colors break-all text-sm block"
+                      className="text-slate-400 hover:text-rose-400 transition-colors wrap-break-word text-sm block" // ✅ เปลี่ยนเป็น break-words
                     >
                       <div>
                         <div className="font-semibold text-white">ที่อยู่</div>
                         <span className="text-slate-400 text-sm leading-relaxed block mt-1">
-                          เลขที่ 311/1 ม.4 ตำบลคำน้ำเเซบ อำเภอวารินชำราบ
-                          อุบลราชธานี 34190
-                          <br />
+                          เลขที่ 311/1 ม.4 ต.คำน้ำเเซบ อ.วารินชำราบ
+                          <br />{" "}
+                          {/* ใส่ br เพื่อบังคับขึ้นบรรทัดใหม่ให้สวยงามไปเลย */}
+                          จ.อุบลราชธานี 34190
                           <span className="text-[#D4AF37]/80 mt-2 block">
                             ทำการ : จันทร์-ศุกร์ | 08:00 - 17:00 น.
                           </span>
